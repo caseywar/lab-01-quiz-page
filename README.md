@@ -14,7 +14,7 @@ add main.css
 choose one or two fonts
 at a theme/pallete
 
-JS OUTCOMES:
+JS Goals:
 
 There should be an alert
 There should be a confirm so the user can opt out
@@ -22,42 +22,20 @@ There should be a first name prompt and a last name prompt
 There should be three question prompts
 The user should be able to see their results after taking the quiz
 
-HTML Setup:
+validation steps:
 
-Some information, presented nicely with an image and some list items.
-Why? So the user knows what to do.
-A button.
-Why? to launch the quiz
-A secret, empty div
-Why? to inject/display the results to the user
-Grab DOM Elements
-button
-secret div
-Add event listeners
-button
-Respond to user input -- in most apps, the real work happens in the cool zone
-launch an alert
-launch a confirmation
-if the user says no, nothing else happens (return nothing to break out of the cool zone)
-if the user says yes, launch the series of propmts
-launch a first name prompt
-store that output to display later
-launch a last name prompt
-store that output to display later
-launch quiz prompts with 3 specific yes/no questions
-how do we evaluate the answers?
-what counts as a yes?
-Yes
-Yeah
-Yep
-Y
-yes
-yeah
-y
-anything that starts with a y counts as a yes
-how many times are we going to see if something counts as a yes?
-three times
-instead of copying and pasting, lets write a countsAsAYes function!
-make a results string
-display that results string
-inject stuff into the textContent of our secret results div
+make and export countsAsAYes function
+test it in example.test.js
+import funtion to app.js
+grab dom elements for the button and result space
+consol log the variables to make sure they work
+make an event listener
+consol log inside to make sure it works
+make an alert welcoming user to quiz
+make an alert asking if they want to procede
+    -if no: return
+create altert for both first name and last name
+make a let that keeps track of correct answers
+make three prompts using the countsAsAYes function and adding points to the correct answers variable
+make a sentance with quiz results in the results space
+
