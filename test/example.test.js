@@ -17,7 +17,7 @@ test('test should return a true statement when the given a word that starts with
     expect.equal(actual, expected);
 });
 
-test('test should return a true statement when the given a word that starts with y', (expect) => {
+test('test should return a false statement when the given a word that does not start with y', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const expected = false;
