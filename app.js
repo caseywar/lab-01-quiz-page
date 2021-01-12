@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-import { countsAsAYes } from './utils.js';
+import { countsAsAYes } from '../utils.js';
 
 const quizButton = document.getElementById('quiz-button');
 const resultSpace = document.getElementById('result-space')

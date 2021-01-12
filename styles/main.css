@@ -1,4 +1,40 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin: 30px;
+}
+
 .ef-photo {
     font-size: 10px;
     color: red;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.main-text {
+    font-family: 'Inconsolata', monospace;
+    /* padding: 2rem; */
+}
+.list {
+    padding: 2rem;
+}
+.result-space {
+    font-size: 30px;
+    font-style: italic; 
+    font-weight: 300;
+    color: gray;
+}
+
+
+.gutter-right {
+    font-family: 'Inconsolata', monospace;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
